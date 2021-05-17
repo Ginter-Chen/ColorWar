@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Christmas</title>
+	<link rel="stylesheet" href="Css/styles.css">
+    <script src="js/getvalue.js"></script>
+    <script src="js/Socket.js"></script>
+    <script src="js/joy.js"></script>
+    <script src="js/joy.min.js"></script>
+</head>
+<body>
+	<div id="Start">
+		<div id="backimg-top"></div>
+		<div id="backimg">
+			<div id="Select-top"></div>
+			<div id="Select">
+				<img id="img1" src="Image/Character_text.png">
+				<select id="player" onchange="Select()">
+					<option>&#9660</option>
+					<option>Santa</option>
+					<option>Deer</option>
+					<option>Snowman</option>
+				</select>
+				<img id="img2" src="Image/Face_text.png">
+				<select id="name" onchange="Select()">
+					<option>&#9660</option>
+					<option>Alice</option>
+					<option>Ian</option>
+					<option>Jackie</option>
+					<option>Leo</option>
+					<option>Jerry</option>
+					<option>Wayne</option>
+					<option>James</option>
+					<option>Vader</option>
+					<option>Ginter</option>
+					<option>Johnson</option>
+					<option>Tina</option>
+					<option>Sam</option>
+					<option>Alan</option>
+					<option>Bmo</option>
+					<option>Cindy</option>
+					<option>Dally</option>
+					<option>Hanning</option>
+				</select>
+				<div id="Send-top"></div>
+				<div id="Send"><button id="SendButton" onclick="StartSend()"></button></div>
+			</div>
+		</div>
+	</div>
+	<div id="Play">
+		<div id="PlayBack">
+			<div id="JoyBackTop"></div>
+			<div id="JoyBack">
+				<div id="joyDiv"></div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js/scripts.js"></script>

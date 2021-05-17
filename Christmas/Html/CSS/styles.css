@@ -1,0 +1,154 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:600';
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	/* height: 80vh; */
+	overflow: hidden;
+	background-color: #666666;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+}
+select{
+	width: 55%;
+	height: 6vh;
+	margin-top: 2vh;
+	margin-left: 22.5%;
+	margin-right: 20%;
+	color: green;
+	background-color: white;
+	border: thin solid green;
+	border-width: 0.2em;
+	border-radius: 50px;
+	display: inline-block;
+	font: inherit;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-repeat: no-repeat;
+	outline: none;
+	padding-left: 5%;
+	/* overflow:auto; */
+}
+#console {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+#Start{
+	background-image: url(/Image/UI-1-Background.jpg);
+	height: 100vh;
+	width: 100vw;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%;
+	margin: 0;
+}
+#backimg-top{
+	height: 2.5vh;
+}
+#backimg{
+	background-image: url(/Image/UI-1-Layer.png);
+	height: 80vh;
+	width: 80vw;
+    -webkit-background-size: contain, cover; 
+    -moz-background-size: contain, cover; 
+    -o-background-size: contain, cover; 
+    background-size: contain, cover;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position:center 0 ;
+}
+#Select-top{
+	height: 23%;
+}
+#Select{
+	height: 77%;
+}
+#Select #img1{
+	width: 90%;
+	margin-left: 5%;
+}
+#Select #img2{
+	margin-top: 2vh;
+	width: 90%;
+	margin-left: 5%;
+}
+#Send-top{
+	height: 6%;
+}
+#Send{
+	height: 30%;
+	width: 30%;
+	margin: 0 auto;
+	/* display: none; */
+}
+#Send button{
+	width: 100%;
+	height: 100%;
+	color:rgba(0, 0, 0, 0);
+	border: none;
+	outline: none;
+	background-image: url(/Image/UI-1-Button01.png);
+	background-size: 100%;
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+#Play{
+	background-image: url(/Image/UI-2-Background.jpg);
+	height: 100vh;
+	width: 100vw;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+#PlayBack{
+	background-image: url(/Image/UI-2-Layer-1.png);
+	height: 80vh;
+	width: 80vw;
+    -webkit-background-size: contain, cover; 
+    -moz-background-size: contain, cover; 
+    -o-background-size: contain, cover; 
+    background-size: contain, cover;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#JoybackTop{
+	width: 100%;
+	height: 52%;
+}
+#Joyback{
+	width: 60vw;
+	height: 65vw;
+	background-image: url(/Image/UI-2-Frame.jpg);
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+	background-size: 100%;
+	/* position: relative; */
+	/* top: 73%; */
+	/* transform: translate(0, -50%); */
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+/*#region joystick*/
+#joyDiv{
+	width: 56vw;
+	height: 57vw;
+	position: relative;
+	top: 2vw;
+	left: 2vw;
+}
+/*#endregion*/
